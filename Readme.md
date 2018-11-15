@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [GridListViewController.cs](./CS/WinSolution.Module.Win/GridListViewController.cs) (VB: [GridListViewController.vb](./VB/WinSolution.Module.Win/GridListViewController.vb))
+* [BO.cs](./CS/WinSolution.Module/BO.cs) (VB: [BO.vb](./VB/WinSolution.Module/BO.vb))
+<!-- default file list end -->
 # OBSOLETE - How to access the grid control when a List View's MasterDetailMode attribute is set to ListViewAndDetailView
 
 
