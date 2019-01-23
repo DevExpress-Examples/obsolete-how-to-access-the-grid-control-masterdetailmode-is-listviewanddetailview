@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -39,73 +39,65 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Utils.v9.2">
+    <Reference Include="DevExpress.Utils.v13.1">
       <Private>True</Private>
-      <HintPath>d:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\9.2.9\DevExpress.Utils.v9.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.BonusSkins.v9.2">
+    <Reference Include="DevExpress.BonusSkins.v13.1">
       <Private>True</Private>
-      <HintPath>d:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\9.2.9\DevExpress.BonusSkins.v9.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Data.v9.2">
+    <Reference Include="DevExpress.Printing.v13.1.Core">
       <Private>True</Private>
-      <HintPath>d:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\9.2.9\DevExpress.Data.v9.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.v9.2">
+    <Reference Include="DevExpress.Data.v13.1">
       <Private>True</Private>
-      <HintPath>d:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\9.2.9\DevExpress.ExpressApp.v9.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Images.v9.2">
+    <Reference Include="DevExpress.ExpressApp.Xpo.v13.1">
       <Private>True</Private>
-      <HintPath>d:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\9.2.9\DevExpress.ExpressApp.Images.v9.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Objects.v9.2">
+    <Reference Include="DevExpress.ExpressApp.v13.1">
       <Private>True</Private>
-      <HintPath>d:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\9.2.9\DevExpress.ExpressApp.Objects.v9.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Validation.v9.2">
+    <Reference Include="DevExpress.ExpressApp.Images.v13.1">
       <Private>True</Private>
-      <HintPath>d:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\9.2.9\DevExpress.ExpressApp.Validation.v9.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Validation.Win.v9.2">
+    <Reference Include="DevExpress.ExpressApp.Objects.v13.1">
       <Private>True</Private>
-      <HintPath>d:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\9.2.9\DevExpress.ExpressApp.Validation.Win.v9.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Win.v9.2">
+    <Reference Include="DevExpress.ExpressApp.Validation.v13.1">
       <Private>True</Private>
-      <HintPath>d:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\9.2.9\DevExpress.ExpressApp.Win.v9.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Persistent.Base.v9.2">
+    <Reference Include="DevExpress.ExpressApp.Validation.Win.v13.1">
       <Private>True</Private>
-      <HintPath>d:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\9.2.9\DevExpress.Persistent.Base.v9.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Persistent.BaseImpl.v9.2">
+    <Reference Include="DevExpress.ExpressApp.Win.v13.1">
       <Private>True</Private>
-      <HintPath>d:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\9.2.9\DevExpress.Persistent.BaseImpl.v9.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpo.v9.2">
+    <Reference Include="DevExpress.Persistent.Base.v13.1">
       <Private>True</Private>
-      <HintPath>d:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\9.2.9\DevExpress.Xpo.v9.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraGrid.v9.2">
+    <Reference Include="DevExpress.Persistent.BaseImpl.v13.1">
       <Private>True</Private>
-      <HintPath>d:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\9.2.9\DevExpress.XtraGrid.v9.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraBars.v9.2">
+    <Reference Include="DevExpress.Xpo.v13.1">
       <Private>True</Private>
-      <HintPath>d:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\9.2.9\DevExpress.XtraBars.v9.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraEditors.v9.2">
+    <Reference Include="DevExpress.XtraPrinting.v13.1">
       <Private>True</Private>
-      <HintPath>d:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\9.2.9\DevExpress.XtraEditors.v9.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraLayout.v9.2">
+    <Reference Include="DevExpress.XtraGrid.v13.1">
       <Private>True</Private>
-      <HintPath>d:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\9.2.9\DevExpress.XtraLayout.v9.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraNavBar.v9.2">
+    <Reference Include="DevExpress.XtraBars.v13.1">
       <Private>True</Private>
-      <HintPath>d:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\9.2.9\DevExpress.XtraNavBar.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v13.1">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v13.1">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v13.1">
+      <Private>True</Private>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>
